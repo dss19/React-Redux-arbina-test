@@ -42,7 +42,7 @@ export default class App extends Component {
   };
 
   onSearchChange = (term) => {
-    this.setState({term});
+    this.setState({ term });
   };
 
   search(items, term) {
